@@ -17,7 +17,7 @@ Perhaps relatedly, when I got down to the much smaller screen-sizes (around 350p
 
 Here's what I built. 
 
-<img width="1439" alt="screen shot 2018-12-12 at 12 41 23 am" src="https://user-images.githubusercontent.com/43555476/49879311-f33d8200-fde6-11e8-8037-6ebf48742616.png">
+<img width="646" alt="screen shot 2018-12-12 at 12 44 41 am" src="https://user-images.githubusercontent.com/43555476/49879424-2c75f200-fde7-11e8-9bf1-6302dd4681c7.png">
 
 And here's the provided comp. 
 
