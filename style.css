@@ -193,49 +193,49 @@ article {
   /*background-position: 100% 100%;
   background-size: cover;*/
   overflow: hidden;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/super-power.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(Images/super-power.jpg);
 }
 
 #crown-inn-image {
   background-position: 100% 100%;
   background-size: contain;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/crown-inn.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(Images/crown-inn.jpg);
 }
 
 #doris-image {
   background-position: 100% 45%;
   background-size: cover;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/doris.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(Images/doris.jpg);
 }
 
 #two-saints-image {
   background-position: 100% 45%;
   background-size: cover;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/two-saints.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(Images/two-saints.jpg);
 }
 
 #king-tai-image {
   background-position: 100% 45%;
   background-size: cover;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/king-tai.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(Images/king-tai.jpg);
 }
 
 #washington-commons-image {
   background-position: 100% 45%;
   background-size: cover;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/washington-commons.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(Images/washington-commons.jpg);
 }
 
 #harts-image {
   background-position: 100% 45%;
   background-size: cover;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/harts.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(Images/harts.jpg);
 }
 
 #sharlenes-image {
   background-position: 100% 45%;
   background-size: cover;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/sharlenes.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(Images/sharlenes.jpg);
 }
 
 /*MEDIA SCREENS*/
@@ -416,3 +416,8 @@ article {
   .logo {
     font-size: 4rem;
   }
+
+
+
+
+
