@@ -9,7 +9,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-/*Header Starts Here*/
+/*HEADER*/
 
 header {
   background-color: #2b2b2b;
@@ -18,22 +18,22 @@ header {
 
 .icon {
   color: #ff4ef9;
-  padding: 5px;
   font-size: .75rem;
+  padding: 5px;
 }
 
 .username-container {
+  align-items: center;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
   margin: 0px;
   padding: .5rem 1rem 0rem 0rem;
 }
 
 li {
   color: #ff4ef9;
-  padding: 0px;
   list-style-type: none;
+  padding: 0px;
 }
 
 #username {
@@ -49,19 +49,19 @@ li {
 }
 
 nav {
-  display: flex;
-  justify-content: flex-start;
   align-items: center;
-  padding: 0px;
+  display: flex;
   height: 2rem;
+  justify-content: flex-start;
+  padding: 0px;
 }
 
 .nav-links {
-  margin: 0rem 3rem 0rem 0rem;
-  color: #d7d7d7;
   align-items: flex-end;
-  justify-content: flex-start;
+  color: #d7d7d7;
   font-size: .75rem;
+  justify-content: flex-start;
+  margin: 0rem 3rem 0rem 0rem;
   text-transform: uppercase;
 }
 
@@ -70,30 +70,30 @@ nav {
 }
 
 .logo-container {
-  display: flex;
-  justify-content: flex-end;
   align-items: center;
+  display: flex;
   font-size: 2rem;
+  justify-content: flex-end;
 }
 
 .logo {
-  padding-left: 1rem;
   font-size: 2rem;
+  padding-left: 1rem;
 }
 
-/*Main Section Starts Here*/
+/*MAIN SECTION*/
 
 .navigation-selection {
-  margin: 0;
   color: #2b2b2b;
+  margin: 0;
   padding: 1rem 0rem 1rem 1rem;
 }
 
 .cards-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 0rem 1rem 1rem 1rem;
   justify-content: space-between;
+  padding: 0rem 1rem 1rem 1rem;
 }
 
 article {
@@ -101,18 +101,18 @@ article {
 }
 
 .card {
-  height: 25rem;
   box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+  height: 25rem;
   margin: .5rem;
   width: 20rem;
 }
 
 .top-section{
-  display: flex;
- justify-content: space-between; 
  align-items: flex-start;
- height: 33.3%;
  color: #ffffff;
+ display: flex;
+ height: 33.3%;
+ justify-content: space-between; 
  padding: 1rem;
 }
 
@@ -121,21 +121,21 @@ article {
 }
 
 .rating {
+  font-size: .5rem;
   margin: 0;
   text-align: right;
   text-transform: uppercase;
-  font-size: .5rem;
 }
 
 .number-rating {
+  font-size: 2rem;
   margin: 0;
   text-align: right;
-  font-size: 2rem;
 }
 
 .bottom-section {
-  height: 66.6%;
   color: #2b2b2b;
+  height: 66.6%;
   padding: 1rem;
 }
 
@@ -144,106 +144,106 @@ article {
 }
 
 .venue-address {
-  margin-top: .25rem;
   color: #d7d7d7;
   font-size: .75rem;
+  margin-top: .25rem;
 }
 
 .venue-website {
   background-color: #d7d7d7;
-  text-align: left;
   margin: 1rem 0rem 1rem 0rem;
   padding: .5rem 1rem 1rem 1rem;
+  text-align: left;
 }
 
 .vibe {
+  font-size: .5rem;
   margin: 0;
   text-transform: uppercase;
-  font-size: .5rem;
 }
 
 .venue-description {
-  margin: 0;
   font-size: 1rem;
+  margin: 0;
+  padding: 1rem 1rem 1rem 0rem;
 }
 
 .check-ins {
-  margin: 0;
-  text-transform: uppercase;
   font-size: .5rem;
   margin-top: 1rem;
+  margin: 0;
+  text-transform: uppercase;
 }
 
 .number-check-ins {
-  margin: 0;
   color: #ff4ef9;
   font-size: 2rem;
+  margin: 0;
   padding-bottom: 1rem;
 }
 
-
 .image-stying {
-  overflow: hidden;
   background-position: 100% 100%;
+  overflow: hidden;
 }
 
 /*IMAGES*/
 
 #super-power-image {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/super-power.jpg);
-  /*background-size: cover;*/
+  /*background-position: 100% 100%;
+  background-size: cover;*/
   overflow: hidden;
-  background-position: 100% 100%;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/super-power.jpg);
 }
 
 #crown-inn-image {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/crown-inn.jpg);
-  background-size: cover;
   background-position: 100% 100%;
+  background-size: contain;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/crown-inn.jpg);
 }
 
 #doris-image {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/doris.jpg);
-  background-size: cover;
   background-position: 100% 45%;
+  background-size: cover;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/doris.jpg);
 }
 
 #two-saints-image {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/two-saints.jpg);
-  background-size: cover;
   background-position: 100% 45%;
+  background-size: cover;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/two-saints.jpg);
 }
 
 #king-tai-image {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/king-tai.jpg);
-  background-size: cover;
   background-position: 100% 45%;
+  background-size: cover;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/king-tai.jpg);
 }
 
 #washington-commons-image {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/washington-commons.jpg);
-  background-size: cover;
   background-position: 100% 45%;
+  background-size: cover;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/washington-commons.jpg);
 }
 
 #harts-image {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/harts.jpg);
-  background-size: cover;
   background-position: 100% 45%;
+  background-size: cover;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/harts.jpg);
 }
 
 #sharlenes-image {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/sharlenes.jpg);
-  background-size: cover;
   background-position: 100% 45%;
+  background-size: cover;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/sharlenes.jpg);
 }
 
 /*MEDIA SCREENS*/
 
 @media screen and (max-width: 1380px) {
   .cards-container {
-    width: 80%;
     margin: auto;
+    width: 80%;
   }
   
   .card {
@@ -271,8 +271,8 @@ article {
 
 @media screen and (max-width: 1275px) {
   .cards.container {
-    width: 60%;
     margin: auto;
+    width: 60%;
   }
 
   .card {
@@ -280,16 +280,15 @@ article {
   }
 
   .username-container {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
     margin: 0px;
     padding: .5rem 0rem 0rem 0rem;
   }
 
   .nav-and-logo-container {
     flex-direction: column-reverse;
-    /*padding: 0rem 9rem 0rem 9rem;*/
   }
 
   .nav {
@@ -299,11 +298,11 @@ article {
 
 @media screen and (max-width: 1200px) {
   .cards.container {
-    width: 60%;
     display: flex;
     flex-wrap: wrap;
-    padding: 0rem 1rem 1rem 1rem;
     justify-content: center;
+    padding: 0rem 1rem 1rem 1rem;
+    width: 60%;
     /*I'm confused why justify-content: center doesn't seem to override the "space-between" value above.*/
   }
 
@@ -318,12 +317,11 @@ article {
   }
 
   .cards.container {
-    width: 60%;
     display: flex;
     flex-wrap: wrap;
-    padding: 8rem 1rem 1rem 1rem;
     justify-content: center;
-    /*I'm confused why justify-content: center doesn't seem to override the "space-between" value above.*/
+    padding: 8rem 1rem 1rem 1rem;
+    width: 60%;
   }
 
   .card {
@@ -337,13 +335,66 @@ article {
   }
 
   .cards-container {
-    width: 60%;
     display: flex;
     flex-wrap: wrap;
-    padding: 12rem 1rem 1rem 1rem;
+    padding: 1rem;
+    width: 75%;
   }
 
-@media screen and (max-width: 320px) {}
+  .card {
+    margin-bottom: 5rem;
+    width: 100%;
+  }
+
+@media screen and (max-width: 550px) {
+  nav {
+    visibility: hidden;
+  }
+
+  .logo {
+    font-size: 4rem;
+  }
+
+  .navigation-selection {
+    padding: 1rem 0rem 1rem 6rem;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    width: 75%;
+  }
+
+  .card {
+    margin-bottom: 5rem;
+    width: 100%;
+  }
+
+@media screen and (max-width: 320px) {
+  nav {
+    visibility: hidden;
+  }
+  
+  .navigation-selection {
+    padding: 1rem 1rem 1rem 1.5rem;
+  }
+  
+  .cards-container {
+    margin: 0px;
+    width: 100%;
+  }
+
+  .card {
+    width: 275px;
+    margin: 0;
+  }
+
+  .logo {
+    font-size: 4rem;
+  }
+
+@media screen and (max-width: 320px) {
   nav {
     visibility: hidden;
   }
@@ -359,22 +410,6 @@ article {
 
   .card {
     width: 100%;
-    margin: 0;
-  }
-
-  .logo {
-    font-size: 4rem;
-  }
-
-@media screen and (max-width: 320px) {}
-  nav {
-    visibility: hidden;
-  }
-  
-  .navigation-selection {
-    padding: 1rem 1rem 1rem 1.5rem;
-  }
-  .cards-container {
     margin: 0;
   }
 
