@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Static Composition One</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <ul class="username-container">
+        <li><i class="far fa-user-circle icon"></i></li>
+        <li id="username">Username</li>
+        <li><i class="fas fa-caret-down icon"></i></li>
+      </ul>
+      <div class="nav-and-logo-container">
+        <nav>
+        <i class="fas fa-glass-martini-alt icon active"></i>
+        <p class="nav-links active">Bars</p>
+        <i class="fas fa-utensils icon"></i>
+        <p class="nav-links">Restaurants</p>
+        <i class="fas fa-music icon"></i>
+        <p class="nav-links">Music</p>
+        </nav>
+        <div class="logo-container">
+          <p>Crown Heights</p>
+          <i class="fas fa-crown logo"></i>
+        </div>
+      </div>
+    </header>
+  <h1 class="navigation-selection">Bars</h1>
+    <section class="cards-container">
+      <article class="card crown-inn">
+        <div class="top-section" id="crown-inn-image">
+          <i class="fas fa-arrow-circle-right arrow"></i>
+          <div class="rating-container">
+            <h3 class="rating">Rating</h3>
+            <p class="number-rating">5</p>
+          </div>
+        </div>
+        <div class="bottom-section">
+          <h2 class="venue">The Crown Inn</h2>
+          <h4 class="venue-address">724 Franklin Ave</h4>
+          <p class="venue-website">ww.thecrowninnbrooklyn.com</p>
+          <h3 class="vibe">Vibe</h3>
+          <h2 class="venue-description">Best bar-themed bar</h2>
+          <h3 class="check-ins">Check-Ins</h3>
+          <h4 class="number-check-ins">12</h4>
+        </div>
+      </article>
+      <article class="card super-power">
+        <div class="top-section" id="super-power-image">
+          <i class="fas fa-arrow-circle-right arrow"></i>
+          <div class="rating-container">
+            <h3 class="rating">Rating</h3>
+            <p class="number-rating">5</p>
+          </div>
+        </div>
+        <div class="bottom-section">
+          <h2 class="venue">Super Power</h2>
+          <h4 class="venue-address">722 Nostrand Ave</h4>
+          <p class="venue-website">superpowerbrooklyn.com</p>
+          <h3 class="vibe">Vibe</h3>
+          <h2 class="venue-description">Tiki</h2>
+          <h3 class="check-ins">Check-Ins</h3>
+          <h4 class="number-check-ins">12</h4>
+        </div>
+      </article>
+      <article class="card doris">
+        <div class="top-section" id="doris-image">
+          <i class="fas fa-arrow-circle-right arrow"></i>
+          <div class="rating-container">
+            <h3 class="rating">Rating</h3>
+            <p class="number-rating">5</p>
+          </div>
+        </div>
+        <div class="bottom-section">
+          <h2 class="venue">Doris</h2>
+          <h4 class="venue-address">1088 Fulton St</h4>
+          <p class="venue-website">www.facebook.com/dorisbedstuy</p>
+          <h3 class="vibe">Vibe</h3>
+          <h2 class="venue-description">Georgia O'Keeffe at da club</h2>
+          <h3 class="check-ins">Check-Ins</h3>
+          <h4 class="number-check-ins">12</h4>
+        </div>
+      </article>
+      <article class="card two-saints">
+        <div class="top-section" id="two-saints-image">
+          <i class="fas fa-arrow-circle-right arrow"></i>
+          <div class="rating-container">
+            <h3 class="rating">Rating</h3>
+            <p class="number-rating">5</p>
+          </div>
+        </div>
+        <div class="bottom-section">
+          <h2 class="venue">Two Saints</h2>
+          <h4 class="venue-address">753 Nostrand Ave</h4>
+          <p class="venue-website">www.twosaintsbar.com</p>
+          <h3 class="vibe">Vibe</h3>
+          <h2 class="venue-description">Bougie hipster</h2>
+          <h3 class="check-ins">Check-Ins</h3>
+          <h4 class="number-check-ins">12</h4>
+        </div>
+      </article>
+      <article class="card king-tai">
+        <div class="top-section" id="king-tai-image">
+          <i class="fas fa-arrow-circle-right arrow"></i>
+          <div class="rating-container">
+            <h3 class="rating">Rating</h3>
+            <p class="number-rating">5</p>
+          </div>
+        </div>
+        <div class="bottom-section">
+          <h2 class="venue">King Tai</h2>
+          <h4 class="venue-address">1095 Bergen St</h4>
+          <p class="venue-website">www.kingtaibar.com</p>
+          <h3 class="vibe">Vibe</h3>
+          <h2 class="venue-description">Miami Vice</h2>
+          <h3 class="check-ins">Check-Ins</h3>
+          <h4 class="number-check-ins">12</h4>
+        </div>
+      </article>
+      <article class="card washington-commons">
+        <div class="top-section" id="washington-commons-image">
+          <i class="fas fa-arrow-circle-right arrow"></i>
+          <div class="rating-container">
+            <h3 class="rating">Rating</h3>
+            <p class="number-rating">5</p>
+          </div>
+        </div>
+        <div class="bottom-section">
+          <h2 class="venue">Washington Commons</h2>
+          <h4 class="venue-address">748 Washington Ave</h4>
+          <p class="venue-website">www.washingtoncommonsbk.com</p>
+          <h3 class="vibe">Vibe</h3>
+          <h2 class="venue-description">Ideal for tacos and card games</h2>
+          <h3 class="check-ins">Check-Ins</h3>
+          <h4 class="number-check-ins">12</h4>
+        </div>
+      </article>
+      <article class="card harts">
+        <div class="top-section" id="harts-image">
+          <i class="fas fa-arrow-circle-right arrow"></i>
+          <div class="rating-container">
+            <h3 class="rating">Rating</h3>
+            <p class="number-rating">5</p>
+          </div>
+        </div>
+        <div class="bottom-section">
+          <h2 class="venue">Hart's</h2>
+          <h4 class="venue-address">506 Franklin Ave</h4>
+          <p class="venue-website">www.hartsbrooklyn.com</p>
+          <h3 class="vibe">Vibe</h3>
+          <h2 class="venue-description">Cozy spot to plot the resistance</h2>
+          <h3 class="check-ins">Check-Ins</h3>
+          <h4 class="number-check-ins">12</h4>
+        </div>
+      </article>  
+      <article class="card sharlenes">
+        <div class="top-section" id="sharlenes-image">
+          <i class="fas fa-arrow-circle-right arrow"></i>
+          <div class="rating-container">
+            <h3 class="rating">Rating</h3>
+            <p class="number-rating">5</p>
+          </div>
+        </div>
+        <div class="bottom-section">
+          <h2 class="venue">Sharlene's</h2>
+          <h4 class="venue-address">353 Flatbush Ave</h4>
+          <p class="venue-website">www.hartsbrooklyn.com</p>
+          <h3 class="vibe">Vibe</h3>
+          <h2 class="venue-description">High Lifes and low ceilings</h2>
+          <h3 class="check-ins">Check-Ins</h3>
+          <h4 class="number-check-ins">12</h4>
+        </div>
+      </article>
+   </section>
+  </header>
+  </body>
+</html>
