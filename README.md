@@ -20,3 +20,5 @@ Here's what I built. (Split into two screenshots.)
 <img width="1440" alt="screen shot 2018-12-12 at 12 41 41 am" src="https://user-images.githubusercontent.com/43555476/49854298-f44ebf00-fda6-11e8-945f-769094401d59.png">
 
 And here's the provided comp. 
+
+<img width="1440" alt="screen shot 2018-12-12 at 12 41 41 am" src="https://user-images.githubusercontent.com/43555476/49854389-3841c400-fda7-11e8-9c8a-38a365ec81f1.png">
