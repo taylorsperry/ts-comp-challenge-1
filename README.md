@@ -15,12 +15,9 @@ Perhaps relatedly, when I got down to the much smaller screen-sizes (around 350p
 
 ### Comps
 
-Here's what I built. (Split into two screenshots.)
-<img width="1439" alt="screen shot 2018-12-12 at 12 41 23 am" src="https://user-images.githubusercontent.com/43555476/49854282-eb5ded80-fda6-11e8-961c-70b707b96f5f.png">
+Here's what I built. 
 
-(fold)
-
-<img width="1440" alt="screen shot 2018-12-12 at 12 41 41 am" src="https://user-images.githubusercontent.com/43555476/49854298-f44ebf00-fda6-11e8-945f-769094401d59.png">
+<img width="1439" alt="screen shot 2018-12-12 at 12 41 23 am" src="https://user-images.githubusercontent.com/43555476/49879311-f33d8200-fde6-11e8-8037-6ebf48742616.png">
 
 And here's the provided comp. 
 
